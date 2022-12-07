@@ -1,3 +1,4 @@
+import app from './src/app.js'
 import App from './src/app.js'
 
 let server = App.runServer()
@@ -27,3 +28,5 @@ process.on('SIGTERM', () => {
     server.close()
   }
 })
+
+module.exports = server
