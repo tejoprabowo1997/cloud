@@ -28,5 +28,3 @@ process.on('SIGTERM', () => {
     server.close()
   }
 })
-
-module.exports = server
